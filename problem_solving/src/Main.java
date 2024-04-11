@@ -1,6 +1,9 @@
+import ProblemSolving.Watermelon;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        System.out.println("Hello world2");
+
+        Watermelon watermelon = new Watermelon();
+        System.out.println(watermelon.getKilos());
     }
 }
